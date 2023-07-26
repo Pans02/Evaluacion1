@@ -2,12 +2,10 @@
 def areaC(r):
   resultado = r * r * 3.14
   return resultado
-
-
+  
 def VolC(h, r):
   vol = h * areaC(r)
   return vol
-
 
 radio = float(input("Ingrese el radio del circulo: "))
 Area = areaC(radio)
